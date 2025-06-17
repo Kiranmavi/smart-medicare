@@ -4,6 +4,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import LoginForm from '@/components/auth/LoginForm';
 import Dashboard from '@/components/dashboard/Dashboard';
 import LoadingSpinner from '@/components/ui/LoadingSpinner';
+import "@/app/globals.css"
 
 export default function Home() {
   const { user, loading } = useAuth();
@@ -12,9 +13,9 @@ export default function Home() {
   //   return <LoadingSpinner />;
   // }
 
-  // if (!user) {
-  //   return <LoginForm />;
-  // }
+  if (!user) {
+    return <LoginForm />;
+  }
 
   return <Dashboard />;
 }
