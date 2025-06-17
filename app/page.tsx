@@ -8,13 +8,13 @@ import LoadingSpinner from '@/components/ui/LoadingSpinner';
 export default function Home() {
   const { user, loading } = useAuth();
 
-  if (loading) {
-    return <LoadingSpinner />;
-  }
+  // if (loading) {
+  //   return <LoadingSpinner />;
+  // }
 
-  if (!user) {
-    return <LoginForm />;
-  }
+  // if (!user) {
+  //   return <LoginForm />;
+  // }
 
   return <Dashboard />;
 }
