@@ -12,7 +12,7 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { CalendarIcon } from 'lucide-react';
 import { format } from 'date-fns';
 import { toast } from 'sonner';
-import { User } from '@/types';
+import { User } from '@/types/index';
 import { mockAPI } from '@/lib/mockData';
 import { useAuth } from '@/contexts/AuthContext';
 
