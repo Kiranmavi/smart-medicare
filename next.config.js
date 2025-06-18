@@ -5,8 +5,8 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
-  basePath: '/Medicare',
-  assetPrefix: '/Medicare/',
+  // basePath: '/Medicare',
+  // assetPrefix: '/Medicare/',
 };
 
 module.exports = nextConfig;
