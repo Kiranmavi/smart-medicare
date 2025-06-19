@@ -5,6 +5,8 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
+  distDir: 'out',
+  trailingSlash: true,
   // basePath: '/Medicare',
   // assetPrefix: '/Medicare/',
 };
